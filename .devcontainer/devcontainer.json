@@ -1,0 +1,11 @@
+{
+  "name": "Diary Blog",   
+  "image": "mcr.microsoft.com/vscode/devcontainers/python:3.9",
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "terminal.integrated.shell.linux": "/bin/bash"
+      }
+    }
+  }
+}
