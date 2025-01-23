@@ -1,0 +1,15 @@
+baseURL: 'https://example.org/'
+languageCode: 'en-us'
+theme: "anubis2"
+title: 'Jumbling'
+
+params:
+  author:
+    name: "Jam"
+
+markup: 
+  goldmark: 
+    renderer:
+      unsafe: true # true | false; Enable unsafe mode to have a better experience
+  highlight:
+    style: 'base16-snazzy' # Chroma style, find more at here: https://swapoff.org/chroma/playground/
