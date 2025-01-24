@@ -25,7 +25,9 @@
 
     {{ if not .Site.Params.disableSummary }}
         <div class="content post-summary p-summary">
-            {{ .Summary | safeHTML }}
+            <!-- {{ .Summary | safeHTML }} -->
+            <!-- above default summary not working, so manually truncate -->
+            {{ .Content | strings.Truncate 30 }}
         </div>
     {{ end }}
 
