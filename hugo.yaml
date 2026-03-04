@@ -11,5 +11,6 @@ markup:
   goldmark: 
     renderer:
       unsafe: true # true | false; Enable unsafe mode to have a better experience
+      hardWraps: true
   highlight:
     style: 'base16-snazzy' # Chroma style, find more at here: https://swapoff.org/chroma/playground/
